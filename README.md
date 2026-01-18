@@ -134,27 +134,8 @@ Defect labels map directly to real maintenance categories
 
 Designed like a real industrial inspection system
 
-# Repository Structure
-Solar-Panel-Defect-Detection/
-│
-├── README.md
-│
-├── 1_Dataset_Preparation/
-│   └── OrganisingDataset.ipynb
-│
-├── 2_Binary_Classification/
-│   ├── Binary_classification.ipynb
-│   └── Classification.ipynb
-│
-├── 3_Ensemble_Model/
-│   └── EnsembleBinary.ipynb
-│
-├── 4_MultiClass_Defect_Classification/
-│   └── MultiClass.ipynb
-│
-└── requirements.txt
 
-# Methodology (End-to-End)
+# Methodology
 
 Collected labeled solar panel images
 
@@ -186,7 +167,7 @@ Generated final human-readable output
 
 ✔️ Professional GitHub structure
 
-# Final Output (One-Line Explanation)
+# Final Output 
 
 The system automatically detects whether a solar panel is defective using an ensemble CNN model and, if defective, identifies the exact defect type using a multi-class CNN.
 The system automatically detects whether a solar panel is defective using an ensemble CNN model and, if defective, identifies the exact defect type using a multi-class CNN.
